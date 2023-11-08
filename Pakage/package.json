@@ -1,0 +1,17 @@
+{
+  "name": "pakage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ../ideNet/dist/css/style.css -o ../ideNet/dist/css/output.css --watch "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  },
+  "dependencies": {
+    "preline": "^2.0.0"
+  }
+}
